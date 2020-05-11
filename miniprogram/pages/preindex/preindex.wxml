@@ -1,0 +1,21 @@
+<!--index.wxml-->
+<view class="container">
+
+<view class="bg-img bg-mask padding-tb-xl" style="background-image: url(zhouchengsmall.jpg);height: 414rpx;">
+  <view class="padding-xl text-white">
+    <view class="padding-xs text-xl">
+      轴承状况预测实验
+    </view>
+    <view class="padding-xs">
+      Bearing prediction experiment.
+    </view>
+  </view>
+</view>
+
+<view class="padding flex flex-direction">
+<button class="cu-btn round bg-blue margin-tb lg" style="width:90%;margin-top:100rpx;border:1px solid #ccc" bindtap="navToPre">单个零件预测</button>
+</view>
+<view class="padding flex flex-direction">
+<button class="cu-btn round bg-blue margin-tb lg" style="width:90%;border:1px solid #ccc" bindtap="navToPre1">所有零件预测</button>
+</view>
+</view>

@@ -1,0 +1,6 @@
+page{
+  background: #fff;
+  --red: #c04851;
+	--orange: rgb(209, 97, 82);
+	--blue: #5e7987;
+}

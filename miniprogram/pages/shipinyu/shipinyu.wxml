@@ -1,0 +1,32 @@
+<view class="bg-img bg-mask padding-tb-xl" style="background-image: url(zhouchengsmall.jpg);height: 414rpx;">
+  <view class="solids-bottom padding-xs flex align-center" style="margin-top:100rpx">
+    <view class="flex-sub text-center">
+      <view class="text-xxl padding">
+        <text class="text-white text-bold">特征提取</text>
+      </view>
+    </view>
+  </view>
+</view>
+
+
+<view class='input-container'>
+  <text class='algo-title text-black text-bold' style="margin-top:35rpx">设置小波变换的参数</text>
+  <view class='line'></view>
+  <form bindsubmit='formsubmit'>
+    <view class='input-item'>
+      <view class='param-name'>window_length</view>
+      <view class='param-name'>600</view>
+    </view>
+    <view class='input-item'>
+      <view class='param-name'>wave_layer</view>
+      <view class='param-name'>6</view>
+    </view>
+    <view class='input-item'>
+      <view class='param-name'>输入检测机器编号：</view>
+      <input class='input setheight' type='digit' value='4' name='inputValue'></input>
+    </view>
+          <view class="padding flex flex-direction">
+<button class="cu-btn round bg-blue margin-tb lg" style="width:90%;border:1px solid #ccc" form-type='submit'>提交参数</button>
+</view>
+  </form>
+</view>

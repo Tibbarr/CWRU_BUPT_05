@@ -1,0 +1,13 @@
+/* pages/shipinyu/shipinyu.wxss */
+
+page{
+  background: #fff;
+  --red: #c04851;
+	--orange: rgb(209, 97, 82);
+	--blue: #5e7987;
+}
+
+.setheight{
+  height: 55rpx;
+  font-size: 35rpx;
+}

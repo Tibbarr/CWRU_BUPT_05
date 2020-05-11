@@ -1,0 +1,51 @@
+<!--index.wxml-->
+<view class="container">
+  
+  <view class="text-xl" style="margin-top:100rpx margin-bottom:100rpx">
+    <text class="text-black text-bold">故障部位占比统计</text>
+  </view>
+
+  <ec-canvas id="mychart-dom-multi-pie" canvas-id="mychart-multi-pie" ec="{{ ecPie }}" style="margin-bottom:100rpx"></ec-canvas>
+
+  <view class="text-xl" style="margin-top:480rpx">
+    <text class="text-black text-bold">机组故障发生频次</text>
+  </view>
+
+  <ec-canvas id="mychart-dom-multi-bar" canvas-id="mychart-multi-bar" ec="{{ ecBar }}" style="padding-bottom:5rpx" class="ec-canvassize1"></ec-canvas>
+
+  <view class="padding flex flex-direction">
+  <button class="cu-btn bg-grey lg" style="margin-top:10rpx" bindtap="output">导出报表</button>
+  </view>
+
+  <view class="text-xl">
+    <text class="text-black text-bold">维修历史</text>
+  </view>
+
+
+<view>
+  <view class="cu-list menu">
+      <view class="cu-item">
+        <view class="content" style="padding-right:50rpx">
+          <text class="cuIcon-warnfill text-red"></text>
+          <text class="text-grey">  {{breakyear1}}年{{breakmonth1}}月{{breakday1}}日</text>
+        </view>
+
+        <view class="action">
+          <text class="text-grey text-sm">设备{{zhouchengnumber1}}  {{breakclass1}}故障</text>
+        </view>
+      </view>
+
+      <view class="cu-item">
+        <view class="content" style="padding-right:50rpx">
+          <text class="cuIcon-warnfill text-red"></text>
+          <text class="text-grey">  {{breakyear2}}年{{breakmonth2}}月{{breakday2}}日</text>
+        </view>
+        <view class="action">
+          <text class="text-grey text-sm">设备{{zhouchengnumber2}}  {{breakclass2}}故障</text>
+        </view>
+      </view>
+
+  </view>
+</view>
+
+</view>

@@ -1,0 +1,62 @@
+<scroll-view scroll-y class="scrollPage">
+  <view class="UCenter-bg">
+    <image src="/images/chilun.png" class="png" mode="widthFix"></image>
+    <view class="text-xl text-black text-bold" style="margin-top:100rpx">轴承 {{zhouchengnumber}}</view>
+  </view>
+
+  <view class="cu-list menu">
+      <view class="cu-item">
+        <view class="content">
+          <text class="cuIcon-time text-grey"></text>
+          <text class="text-grey">使用时长</text>
+        </view>
+        <view class="action">
+          <text class="text-grey text-sm">{{year}}年 {{month}}个月</text>
+        </view>
+      </view>
+
+      <view class="cu-item">
+      <view class="content">
+        <text class="cuIcon-location text-grey"></text>
+        <text class="text-grey">位置</text>
+      </view>
+      <view class="action">
+        <text class="text-grey text-sm">{{station}}区 {{number}}组</text>
+      </view>
+    </view>
+  </view>
+  <view class="flex-sub text-center">
+    <view class="text-xl" style="margin-bottom:50rpx">
+      <text class="text-black text-bold">故障历史</text>
+    </view>
+  </view>
+
+  <view class="cu-list menu">
+      <view class="cu-item">
+        <view class="content">
+          <text class="cuIcon-warnfill text-red"></text>
+          <text class="text-grey">  {{breakyear1}}年{{breakmonth1}}月{{breakday1}}日</text>
+        </view>
+        <view class="action">
+          <text class="text-grey text-sm">IR 故障</text>
+        </view>
+      </view>
+
+      <view class="cu-item">
+        <view class="content">
+          <text class="cuIcon-warnfill text-red"></text>
+          <text class="text-grey">  {{breakyear2}}年{{breakmonth2}}月{{breakday2}}日</text>
+        </view>
+        <view class="action">
+          <text class="text-grey text-sm">OR 故障</text>
+        </view>
+      </view>
+
+  </view>
+
+  <view class="padding flex flex-direction">
+  <button class="cu-btn bg-orange lg" style="margin-top:65rpx" bindtap="startPre">开始预测</button>
+  <button class="cu-btn bg-grey lg" style="margin-top:25rpx" bindtap="backlist">返回列表</button>
+  </view>
+
+</scroll-view>

@@ -1,0 +1,24 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/infodetail/infodetail",
+    "pages/multiCharts/multiCharts",
+    "pages/lookgroup/lookgroup",
+    "pages/preindex/preindex",
+    "pages/RandomForest/RandomForest",
+    "pages/RandomForest1/RandomForest1",
+    "pages/shipinyu/shipinyu",
+    "pages/shipinyu1/shipinyu1",
+    "pages/result/result",
+    "pages/csvtest/csvtest"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "轴承运维监测平台",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

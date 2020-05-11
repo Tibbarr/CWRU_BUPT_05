@@ -1,0 +1,121 @@
+<view class="bg-img bg-mask padding-tb-xl" style="background-image: url(zhouchengsmall.jpg);height: 414rpx;">
+  <view class="solids-bottom padding-xs flex align-center" style="margin-top:100rpx">
+    <view class="flex-sub text-center">
+      <view class="text-xxl padding">
+        <text class="text-white text-bold">批量预测</text>
+      </view>
+    </view>
+  </view>
+</view>
+
+
+<view class='input-container'>
+  <text class='algo-title text-black text-bold' style="margin-top:35rpx">选择测试组</text>
+  <view class='line'></view>
+
+     <view class="input-item">
+      <button class="cu-btn round bg-blue margin-tb lg" style="width:80%;border:1px solid #ccc"
+      bindtap="navToPre1">TEST1-10</button>
+     </view>
+
+
+     <view class="input-item">
+      <button class="cu-btn round bg-blue margin-tb lg" style="width:80%;border:1px solid #ccc"
+      bindtap="navToPre2">TEST11-20</button>
+     </view>
+
+
+     <view class="input-item">
+      <button class="cu-btn round bg-blue margin-tb lg" style="width:80%;border:1px solid #ccc"
+      bindtap="navToPre3">TEST21-30</button>
+     </view>
+
+
+
+     <view class="input-item">
+      <button class="cu-btn round bg-blue margin-tb lg" style="width:80%;border:1px solid #ccc"
+      bindtap="navToPre4">TEST31-40</button>
+     </view>
+
+
+     <view class="input-item">
+      <button class="cu-btn round bg-blue margin-tb lg" style="width:80%;border:1px solid #ccc"
+      bindtap="navToPre5">TEST41-50</button>
+     </view>
+
+
+
+
+     <view class="input-item">
+      <button class="cu-btn round bg-blue margin-tb lg" style="width:80%;border:1px solid #ccc"
+      bindtap="navToPre6">TEST51-60</button>
+     </view>
+
+
+
+     <view class="input-item">
+      <button class="cu-btn round bg-blue margin-tb lg" style="width:80%;border:1px solid #ccc"
+      bindtap="navToPre7">TEST61-70</button>
+     </view>
+
+
+
+
+     <view class="input-item">
+      <button class="cu-btn round bg-blue margin-tb lg" style="width:80%;border:1px solid #ccc"
+      bindtap="navToPre8">TEST71-80</button>
+     </view>
+
+
+
+
+     <view class="input-item">
+      <button class="cu-btn round bg-blue margin-tb lg" style="width:80%;border:1px solid #ccc"
+      bindtap="navToPre9">TEST81-90</button>
+     </view>
+
+
+
+     <view class="input-item">
+      <button class="cu-btn round bg-blue margin-tb lg" style="width:80%;border:1px solid #ccc"
+      bindtap="navToPre10">TEST91-100</button>
+     </view>
+
+
+
+
+     <view class="input-item">
+      <button class="cu-btn round bg-blue margin-tb lg" style="width:80%;border:1px solid #ccc"
+      bindtap="navToPre11">TEST101-110</button>
+     </view>
+
+
+
+
+     <view class="input-item">
+      <button class="cu-btn round bg-blue margin-tb lg" style="width:80%;border:1px solid #ccc"
+      bindtap="navToPre12">TEST111-120</button>
+     </view>
+
+
+ 
+     <view class="input-item">
+      <button class="cu-btn round bg-blue margin-tb lg" style="width:80%;border:1px solid #ccc"
+      bindtap="navToPre13">TEST121-130</button>
+     </view>
+
+
+
+     <view class="input-item">
+      <button class="cu-btn round bg-blue margin-tb lg" style="width:80%;border:1px solid #ccc"
+      bindtap="navToPre14">TEST131-140</button>
+     </view>
+
+
+
+     <view class="input-item">
+      <button class="cu-btn round bg-blue margin-tb lg" style="width:80%;border:1px solid #ccc"
+      bindtap="navToPre15">TEST141-142</button>
+     </view>
+
+</view>

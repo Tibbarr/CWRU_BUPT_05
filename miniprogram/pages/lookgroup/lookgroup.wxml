@@ -1,0 +1,25 @@
+<scroll-view scroll-y class="scrollPage">
+
+  <view class="UCenter-bg">
+    <image src="/images/chilun.png" class="png" mode="widthFix" style="margin-top:50rpx"></image>
+    <view class="text-title text-black bottomcontrol" style="margin-top:50rpx"> 点击按钮，查看对应轴承的详情</view>
+  </view>
+
+  <view id='zhouchenglist' wx:for="{{zhouchenglistData1}}" wx:for-index="zhouchenglistDataItem" class="cu-list menu confinewidth" style="margin-top:30rpx">
+      <view class="cu-item confineheight">
+        <view class="content">
+          <text class="cuIcon-warn text-grey"></text>
+          <text class="text-grey">轴承 {{zhouchenglistDataItem+1}}</text>
+        </view>
+        
+        <view class="action">    
+        <view class="cu-btnsmall bg-blue lg confinewidth2" bindtap="infodetail" data-index="{{zhouchenglistDataItem+1}}">查看</view>
+        </view>
+      </view>
+  </view>
+
+<view class="padding flex flex-direction">
+  <button class="cu-btn bg-orange lg" style="margin-top:45rpx" bindtap="backindex">返回首页</button>
+  </view>
+
+</scroll-view>

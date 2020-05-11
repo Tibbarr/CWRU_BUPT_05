@@ -1,0 +1,40 @@
+<view class="UCenter-bg">
+ <view class="titleContainer">
+  <text class="big-title zindex" style="margin-top:50rpx">查看预测结果</text>
+</view>
+</view>
+
+<view class="table">
+  <view class="tr">
+    <view class="th2">filename</view>
+    <view class="td">{{filename0}}</view>
+  </view>
+  <view class="tr">
+    <view class="th">predict1</view>
+    <view class="td">{{predict[0][0]}}</view>
+  </view>
+  <view class="tr">
+    <view class="th">predict2</view>
+    <view class="td">{{predict[0][1]}}</view>
+  </view>
+  <view class="tr">
+    <view class="th">predict3</view>
+    <view class="td">{{predict[0][2]}}</view>
+  </view>
+  <view class="tr">
+    <view class="th">predict3</view>
+    <view class="td">{{predict[0][3]}}</view>
+  </view>
+  <view class="tr">
+    <view class="th">predict3</view>
+    <view class="td">{{predict[0][4]}}</view>
+  </view>
+  <view class="tr">
+    <view class="th">predict3</view>
+    <view class="td">{{predict[0][5]}}</view>
+  </view>
+  </view>
+
+<view class="padding flex flex-direction">
+  <button class="cu-btn bg-orange lg" style="margin-top:45rpx" bindtap="navToPre">返回首页</button>
+</view>

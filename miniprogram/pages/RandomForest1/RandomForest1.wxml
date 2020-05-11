@@ -1,0 +1,36 @@
+<view class="bg-img bg-mask padding-tb-xl" style="background-image: url(zhouchengsmall.jpg);height: 414rpx;">
+  <view class="solids-bottom padding-xs flex align-center" style="margin-top:100rpx">
+    <view class="flex-sub text-center">
+      <view class="text-xxl padding">
+        <text class="text-white text-bold">机器学习</text>
+      </view>
+    </view>
+  </view>
+</view>
+<view class='input-container'>
+  <text class='algo-title text-black text-bold' style="margin-top:35rpx">算法参数</text>
+  <view class='line'></view>
+  <form bindsubmit='formsubmit'>
+    <view class='input-item'>
+      <view class='param-name'>模型训练的迭代次数</view>
+      <view class='param-name'>200</view>
+    </view>
+    <view class='input-item'>
+      <view class='param-name'>决策树的最大深度</view>
+      <view class='param-name'>25</view>
+    </view>
+        <view class='input-item'>
+      <view class='param-name'>内部节点再划分最小样本数</view>
+      <view class='param-name'>2</view>
+    </view>
+        <view class='input-item'>
+      <view class='param-name'>叶子节点最少样本数</view>
+      <view class='param-name'>1</view>
+    </view>
+
+
+<view class="padding flex flex-direction">
+<button class="cu-btn round bg-blue margin-tb lg" style="width:90%;border:1px solid #ccc" bindtap="navToPre"form-type='submit'>提交参数</button>
+</view>
+  </form>
+</view>

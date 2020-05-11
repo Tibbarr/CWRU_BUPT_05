@@ -1,0 +1,67 @@
+.bg{
+  position: fixed;
+  width: 100%;
+  height:100%;
+  z-index: -1;
+}
+
+.btns {
+  margin-top: 30rpx;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.buttonview1{
+  position:relative;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 100;
+}
+.buttonview2{
+  position: relative;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 100;
+}
+.buttonview2{
+  position: relative;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 100;
+}
+.bias{
+  width: 100%;
+  line-height:200%;
+  padding: 0px 0px;
+  margin-top: 550rpx;
+  background:none;
+  border:1rpx solid #FFFFFF;
+  font-size: 36rpx;
+  color: #FFFFFF;
+  font-weight: 300;
+}
+
+.bias2{
+  width: 100%;
+  line-height:200%;
+  padding: 0px 0px;
+  margin-top: 50rpx;
+  background:none;
+  border:1rpx solid #FFFFFF;
+  font-size: 36rpx;
+  color: #FFFFFF;
+  font-weight: 300;
+}

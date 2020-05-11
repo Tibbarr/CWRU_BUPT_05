@@ -1,0 +1,18 @@
+<!--index.wxml-->
+<image src="background_index.jpg" class="bg" aspectFit></image>
+<view class="titleContainer">
+  <text class="big-title">  </text>
+</view>
+<view class='btns'>
+  <view>
+  <button class="bias" bindtap="startPre">开始预测</button>
+  </view>
+
+  <view>
+  <button class="bias2" bindtap="lookup">查看详情</button>
+  </view>
+
+  <view>
+  <button class="bias2" bindtap="createCharts">生成报表</button>
+  </view>
+</view>

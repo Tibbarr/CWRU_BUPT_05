@@ -1,0 +1,71 @@
+/**index.wxss**/
+
+page{
+  background: #fff;
+  --red: #c04851;
+	--orange: rgb(209, 97, 82);
+	--blue: #5e7987;
+}
+
+ec-canvas {
+  width: 100%;
+  height:35%;
+}
+
+
+.ec-canvassize1 {
+  width: 100%;
+  height:65%;
+}
+
+.confinewidth{
+  width: 60%;
+}
+#mychart-dom-multi-pie {
+  position: absolute;
+  top: 10%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin-bottom: 0%;
+}
+
+#mychart-dom-multi-scatter {
+  position: absolute;
+  top: 60%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+} 
+
+.text-xl {
+	font-size: 42rpx;
+  color: black;
+  margin-top: 50rpx;
+  margin-bottom: 10rpx;
+  padding: 0px 0px;
+}
+
+.text-grey,
+.line-grey,
+.lines-grey {
+	color: var(--grey);
+  font-size: 32rpx;
+}
+
+.text-sm {
+	font-size: 30rpx;
+}
