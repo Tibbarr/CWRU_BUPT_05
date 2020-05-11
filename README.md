@@ -59,11 +59,9 @@
   * OR01.csv  -  OR14.csv
   * IR01.csv  -  IR06.csv
   
-* TEST1
-  * TEST01.csv  -  TEST14.csv
+* TEST1 : TEST01.csv  -  TEST14.csv
   
-* TEST2
-  * TEST1.csv  -  TEST142.csv
+* TEST2 : TEST1.csv  -  TEST142.csv
 
 
 
@@ -83,15 +81,11 @@
 - Python 3.7版本
 
 
-
 #### 2. 需要配置的python依赖包
 
 - pandas-0.23.2-cp37-cp37m-win_amd64
-
 - numpy-1.16.6-cp37-cp37m-win_amd64
-
 - scikit_learn-0.19.2-cp37-cp37m-win_amd64
-
   
 
 #### 3. python 开发工具
@@ -105,12 +99,10 @@
 > 以上工具任选其一即可。小组成员完成本项目使用的主要工具为spyder。
 
 
-
 #### 4. 微信小程序开发环境
 
 - 微信开发者工具稳定版 [Stable Build] (1.02.2004020)
 > 下载地址：https://developers.weixin.qq.com/miniprogram/dev/devtools/download.html
-
 
 
 ## 部署说明
@@ -120,8 +112,6 @@
 
 
 #### 2. 部署项目
-
-
 
 
 
@@ -137,29 +127,29 @@
 
 ​		按照文件名中的STEP标注，顺序执行 STEP1 - STEP7 对应的 .py 文件：
 
-* **STEP1_TrainDrop：** 该文件用于初步处理训练集，规整格式，方便后续进行特征提取。
+* **STEP1_TrainDrop：** 该文件用于初步处理训练集，规整格式，方便后续进行特征提取
 > 运行前需将本地train文件夹中的文件分类整理在B、IR、OR、NORMAL文件夹中，并替换相应的输出路径
 
-* **STEP2_Test1Drop：** 为了增加用于训练的数据量，此处将第一组发布的训练集进行处理，整合到训练集中。该文件用于初步处理第一组训练集，规整格式，方便后续进行特征提取。
+* **STEP2_Test1Drop：** 该文件用于初步处理第一组训练集，规整格式，增加用于训练的数据量，方便后续进行特征提取
 
-* **STEP3_TimeAndFreRefine：** 该文件用于对规整之后的训练集和规整后的第一次测试集进行时频域特征提取。
+* **STEP3_TimeAndFreRefine：** 该文件用于对规整之后的训练集和规整后的第一次测试集进行时频域特征提取
 
 * **STEP4_LabelTrain：** 该文件用于给训练集打上对应的标签，并进行初步合并
 
-* **STEP5_LabelTest1：** 通过第一组测试集的提交结果，能推得每一个文件得准确标签，故可用于增加训练集的数据量。该文件用于给第一组训练集打上对应的标签。
+* **STEP5_LabelTest1：** 该文件用于给第一组训练集打上对应的标签。
 
-* **STEP6_AddLabeledTrainTest：** 该文件用于将处理好的训练集和第一组测试集合并为一个文件。
+* **STEP6_AddLabeledTrainTest：** 该文件用于将处理好的训练集和第一组测试集合并为一个文件
 > 运行前需要将打好标签的训练集和第一组测试集放到同一个文件夹下，并按照同样的形式修改路径
 
-* **STEP7_Split：** 该文件用于将上述处理好的数据集按照 4:1 的比例划分为 train 和 test 。
+* **STEP7_Split：** 该文件用于将上述处理好的数据集按照 4:1 的比例划分为 train 和 test
 
 ##### 1.3 处理测试集
 
 按照文件名中的STEP标注，顺序执行 STEP8 - STEP9 对应的 .py 文件，对第二组测试集进行处理：
 
-* **STEP8_TimeAndFreRefineTest2：** 该文件用于对142个测试集文件进行与训练集同样的时频域特征提取。
+* **STEP8_TimeAndFreRefineTest2：** 该文件用于对142个测试集文件进行与训练集同样的时频域特征提取
 
-* **STEP9_Addfilename：** 该文件用于给142个测试文件打上对应的TEST文件名，并整合为一个文件。
+* **STEP9_Addfilename：** 该文件用于给142个测试文件打上对应的TEST文件名，并整合为一个文件
 
 
 
