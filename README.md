@@ -53,6 +53,17 @@
 
 **【data】**
 
+* Train
+  * NORMAL01.csv  -  NORMAL02.csv
+  * B01.csv  -  B06.csv
+  * OR01.csv  -  OR14.csv
+  * IR01.csv  -  IR06.csv
+  
+* TEST1
+  * TEST01.csv  -  TEST14.csv
+  
+* TEST2
+  * TEST1.csv  -  TEST142.csv
 
 
 
