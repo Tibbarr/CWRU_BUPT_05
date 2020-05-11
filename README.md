@@ -16,6 +16,35 @@
 
 **【python_code】**
 
+* Model_allsteps
+
+  * STEP1_TrainDrop.py
+  * STEP2_Test1Drop.py
+  * STEP3_TimeAndFreRefine.py
+  * STEP4_LabelTrain.py
+  * STEP5_LabelTest1.py
+  * STEP6_AddLabeledTrainTest.py
+  * STEP7_Split.py
+  * STEP8_TimeAndFreRefineTest2.py
+  * STEP9_Addfilename.py
+  * STEP10_Model_TrainAndOutput.py
+    
+
+* Model_runmodel
+
+  * ModelSTEP1_UseModelOutput.py
+  * RFfinalmodel.model
+  * T600W6more_test.csv
+  * TEST_2_all.csv
+  
+
+* other_code
+
+  * Other_Dataclean.py
+  * Other_PHMmodeltest.py
+  * Other_RFtiaocan.py
+  * Other_SaveModel.py
+
 
 
 **【miniprogram】**
