@@ -54,4 +54,4 @@
 
 ## 注意事项
 
-3. 微信小程序中调用自己的api需要经过PHM平台，获取api及平台access_token的方式可参考以下教程：http://www.phmlearn.com/u/zangml/blogs/77
+微信小程序中调用自己的api需要经过PHM平台，获取api及平台access_token的方式可参考以下教程：http://www.phmlearn.com/u/zangml/blogs/77
