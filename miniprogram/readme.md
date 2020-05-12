@@ -44,11 +44,9 @@
 ## 运行说明
 ### 微信小程序部分
 
-```
-在微信开发者工具中导入miniprogram项目即可进行编译。
 
+在微信开发者工具中导入miniprogram项目即可进行编译。
 如需使用PHM平台的其它功能，需要替换：
-```
 
 * app.js文件中的access_token
 * 将需要请求api的对应.js文件中util.reqFunc()中的url替换为自己平台上获得的url
