@@ -58,10 +58,10 @@
 * pages
   * index：首页
   * preindex：开始预测页
-  * RandomForest：单个元件预测
-  * RandomForest1：分组预测
   * shipinyu：单个元件特征提取
   * shipinyu1：选择分组并进行特征提取
+  * RandomForest：单个元件预测
+  * RandomForest1：分组预测
   * result：单个元件预测结果页
   * csvtest：分组预测结果展示
   * lookgroup：查看详情选择页
