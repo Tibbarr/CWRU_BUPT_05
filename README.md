@@ -76,6 +76,7 @@
 * promise.js：时序控制文件
 
 
+
 **【data】**
 
 * Train：训练集
@@ -89,6 +90,17 @@
   
 * TEST2 : 第二组测试集
   * TEST1.csv  -  TEST142.csv
+
+
+
+**【packets】**
+
+* numpy_cp37
+
+* pandas_cp37
+
+* scikit-learn_cp37
+
 
 
 
@@ -132,13 +144,30 @@
 > 下载地址：https://developers.weixin.qq.com/miniprogram/dev/devtools/download.html
 
 
+
 ## 部署说明
 
 #### 1. 从Github上获取项目
 
+项目地址：https://github.com/Tibbarr/CWRU_BUPT_05.git
 
+从github上克隆项目至本地即可。
 
 #### 2. 部署项目
+
+1）安装python环境及开发工具
+
+2）使用cmd进入对应whl文件所在的目录，安装依赖包，命令如下：
+
+```
+pip install numpy-1.16.6-cp37-cp37m-win_amd64.whl
+pip install pandas-0.23.2-cp37-cp37m-win_amd64.whl
+pip install scikit_learn-0.19.2-cp37-cp37m-win_amd64.whl
+```
+
+3）安装成功后，使用开发工具打开对应的.py文件，即可运行相应代码
+
+4）安装微信开发者工具，导入miniprogram项目，进行编译和预览即可
 
 
 
@@ -154,22 +183,22 @@
 
 ​		按照文件名中的STEP标注，顺序执行 STEP1 - STEP7 对应的 .py 文件：
 
-* **STEP1_TrainDrop：** 该文件用于初步处理训练集，规整格式，方便后续进行特征提取
+* **STEP1_TrainDrop：** 初步处理训练集，规整格式，方便后续特征提取
 > 运行前需将本地train文件夹中的文件分类整理在B、IR、OR、NORMAL文件夹中，并替换相应的输出路径
-* **STEP2_Test1Drop：** 该文件用于初步处理第一组训练集，规整格式，增加用于训练的数据量，方便后续进行特征提取
-* **STEP3_TimeAndFreRefine：** 该文件用于对规整之后的训练集和规整后的第一次测试集进行时频域特征提取
-* **STEP4_LabelTrain：** 该文件用于给训练集打上对应的标签，并进行初步合并
-* **STEP5_LabelTest1：** 该文件用于给第一组训练集打上对应的标签。
-* **STEP6_AddLabeledTrainTest：** 该文件用于将处理好的训练集和第一组测试集合并为一个文件
+* **STEP2_Test1Drop：** 初步处理第一组训练集，规整格式，增加用于训练的数据量
+* **STEP3_TimeAndFreRefine：** 对规整之后的数据集进行时频域特征提取
+* **STEP4_LabelTrain：** 给训练集打上对应的标签，并进行初步合并
+* **STEP5_LabelTest1：** 给第一组训练集打上对应的标签
+* **STEP6_AddLabeledTrainTest：** 将处理好的训练集和第一组测试集合并为一个文件
 > 运行前需要将打好标签的训练集和第一组测试集放到同一个文件夹下，并按照同样的形式修改路径
-* **STEP7_Split：** 该文件用于将上述处理好的数据集按照 4:1 的比例划分为 train 和 test
+* **STEP7_Split：** 将上述处理好的数据集按照 4:1 的比例划分为 train 和 test
 
 ##### 1.3 处理测试集
 
 按照文件名中的STEP标注，顺序执行 STEP8 - STEP9 对应的 .py 文件，对第二组测试集进行处理：
 
-* **STEP8_TimeAndFreRefineTest2：** 该文件用于对142个测试集文件进行与训练集同样的时频域特征提取
-* **STEP9_Addfilename：** 该文件用于给142个测试文件打上对应的TEST文件名，并整合为一个文件
+* **STEP8_TimeAndFreRefineTest2：** 对142个测试集文件进行与训练集同样的时频域特征提取
+* **STEP9_Addfilename：** 给142个测试文件打上对应的TEST文件名，并整合为一个文件
 
 
 
@@ -194,12 +223,12 @@
 
 在“其它代码”文件夹中，包含四个处理及调试的过程中用到的辅助代码，分别为：
 
-* **Other_Dataclean：** 该文件原本用于特征提取之前的数据清洗
+* **Other_Dataclean：** 原本用于特征提取之前的数据清洗
 > 在项目后期，考虑到时间窗选取较大导致训练集的数据量过少，最终的执行步骤中舍弃了数据清洗，直接进行特征提取
-* **Other_PHMmodeltest：** 该文件是将保存在本地的.model模型上传至平台以获取api时，使用的测试文件
-* **Other_Rftiaocan：** 该文件是模型训练的过程中用于调参的代码，按照注释具体分为多个部分。
+* **Other_PHMmodeltest：** 将保存在本地的.model模型上传至平台以获取api时使用的测试文件
+* **Other_Rftiaocan：** 模型训练的过程中用于调参的代码，按照注释具体分为多个部分
 > 由于调参每次只针对其中的一个或两个参数，运行时需要局部运行或将剩余部分进行注释
-* **Other_SaveModel：** 该文件用于将训练好的模型保存在本地。
+* **Other_SaveModel：** 将训练好的模型保存在本地
 
 ### 二.  微信小程序部分
 
