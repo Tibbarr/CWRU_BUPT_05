@@ -108,7 +108,7 @@
 ## 版本管理
 
 * v 0.0.1：上传了数据集、模型处理和小程序部分的源代码
-
+* v 1.0.1：上传了依赖包，完善了项目文档
 
 
 
@@ -243,3 +243,5 @@ pip install scikit_learn-0.19.2-cp37-cp37m-win_amd64.whl
 ## 注意事项
 
 1. 在执行python代码的过程中，需要按照上述说明替换对应的目录地址；
+2. 如果直接运行代码时随机森林模型运行时出现报错，可能是由于sklearn的版本导致，可尝试安装低版本的sklearn
+3. 微信小程序中调用自己的api需要经过PHM平台，获取api及平台access_token的方式可参考以下教程：http://www.phmlearn.com/u/zangml/blogs/77
