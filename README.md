@@ -14,7 +14,7 @@
 
 ## 目录结构
 
-**【python_code】**
+**【python_code】**（具体的文件说明参考“运行说明”部分）
 
 * Model_allsteps
 
