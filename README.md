@@ -109,11 +109,8 @@
 **【packets】**
 
 * numpy_cp37
-
 * pandas_cp37
-
 * scikit-learn_cp37
-
 
 
 
