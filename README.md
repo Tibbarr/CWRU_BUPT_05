@@ -100,11 +100,9 @@
   * OR01.csv  -  OR14.csv
   * IR01.csv  -  IR06.csv
   
-* TEST1 : 第一组测试集
-  * TEST01.csv  -  TEST14.csv
+* TEST1 : 第一组测试集（TEST01.csv  -  TEST14.csv）
   
-* TEST2 : 第二组测试集
-  * TEST1.csv  -  TEST142.csv
+* TEST2 : 第二组测试集（TEST1.csv  -  TEST142.csv）
 
 
 
