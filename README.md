@@ -50,18 +50,45 @@
 **【miniprogram】**
 
 
+* colorui：colorui组件库
+* components：colorui组件库
+* ec-canvas：echarts组件库
+* images：小程序中用到的背景图
+
+* pages
+  * index：首页
+  * preindex：开始预测页
+  * RandomForest：单个元件预测
+  * RandomForest1：分组预测
+  * shipinyu：单个元件特征提取
+  * shipinyu1：选择分组并进行特征提取
+  * result：单个元件预测结果页
+  * csvtest：分组预测结果展示
+  * lookgroup：查看详情选择页
+  * infodetail：单个元件详情页
+  * multiCharts：报表展示页
+  
+* util：用户配置文件
+* app.js / app.json / app.wxss：全局配置文件
+* icon.wxss：icon样式设置文件
+* main.wxss：整体样式设置文件
+* project.config.json：项目配置文件
+* promise.js：时序控制文件
+
 
 **【data】**
 
-* Train
+* Train：训练集
   * NORMAL01.csv  -  NORMAL02.csv
   * B01.csv  -  B06.csv
   * OR01.csv  -  OR14.csv
   * IR01.csv  -  IR06.csv
   
-* TEST1 : TEST01.csv  -  TEST14.csv
+* TEST1 : 第一组测试集
+  * TEST01.csv  -  TEST14.csv
   
-* TEST2 : TEST1.csv  -  TEST142.csv
+* TEST2 : 第二组测试集
+  * TEST1.csv  -  TEST142.csv
 
 
 
